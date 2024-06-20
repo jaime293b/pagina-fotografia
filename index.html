@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sitio web portafolio de fotografia</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--=================aca inicia la barra de navegacion==============-->
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html" class="nav_logo"
+          ><img src="imagenes/FOTO2.png" alt="nav logo"
+        /></a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#acerca de">acerca de</a></li>
+          <li><a href="#galeria">galeria</a></li>
+          <li><a href="#exposicion">exposicion</a></li>
+        </ul>
+        <ul class="nav_socials">
+          <li>
+            <a href="https://instagram.com/" target="_blank"
+              ><i class="uil uil-instagram-alt"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com/" target="_blank"
+              ><i class="uil uil-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/" target="_blank"
+              ><i class="uil uil-youtube"></i
+            ></a>
+          </li>
+        </ul>
+        <button class="nav_toggle-btn" id="nav_toggle-open">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button class="nav_toggle-btn" id="nav_toggle-close">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
+    </nav>
+    <!--=================hasta aca va la barra de navegacion===============-->
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <div class="header_image-bg"></div>
+          <div class="header_image-lg">
+            <img src="imagenes/header.jpg" alt="header image" />
+          </div>
+          <div class="header_image-sm">
+            <img src="imagenes/header.jpg" alt="header image" />
+          </div>
+        </div>
+        <div class="header_rigth">
+          <div class="header_head">
+            <div class="empty header_empty"></div>
+            <a class="header_tag">#fotografia callejera 2023</a>
+          </div>
+          <h1>La belleza de la calle a través de mi lente</h1>
+          <p>
+            A través de mi lente, descubro un mundo de detalles que a menudo
+            pasan desapercibidos en la rutina diaria.
+          </p>
+          <a href="mailto:unapersonaconfe@gmail.com" class="header_btn-md">
+            hablemos
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="header_frames">
+      <div class="header_frame">
+        <img src="imagenes/frame1.jpg" alt="header frame one" />
+      </div>
+      <div class="header_frame">
+        <img src="./imagenes/frame2.jpg" alt="header frame two" />
+      </div>
+    </div>
+    <a href="mailto:unapersonaconfe@gmail.com" class="contact_btn header_btn"
+      ><i class="uil uil-arrow-up-right"></i>
+      <p>contacto - enviame um e-mail</p></a
+    >
+    <!--=================inicio de acerca de ===============-->
+    <section id="acerca_de">
+      <div class="container acerca_de_container">
+        <h2 class="acerca_de_title">
+          acerca de <br />
+          Jaime Sanchez
+        </h2>
+        <a
+          href="mailto:unapersonaconfe@gmail.com"
+          class="contact_btn acerca_de_btn"
+          ><i class="uil uil-arrow-up-right"></i>
+          <p>contacto - enviame un e-mail</p></a
+        >
+        <div class="acerca_de_left">
+          <div class="acerca_de_image">
+            <div class="acerca_de_image-bg"></div>
+            <div class="acerca_de_image-lg">
+              <img src="imagenes/IMG_4904.jpg" alt="acerca de Jaime Sanchez" />
+            </div>
+            <div class="acerca_de_image-sm">
+              <img src="imagenes/IMG_4904.jpg" alt="acerca de Jaime Sanchez" />
+            </div>
+          </div>
+        </div>
+        <div class="acerca_de_right">
+          <div class="empty acerca_de_empty"></div>
+          <p>
+            Mirar la belleza de la calle a través de mi lente es sumergirse en
+            un panorama urbano donde la esencia de la vida moderna se despliega
+            en su máxima expresión.
+          </p>
+          <p>
+            En cada rincón, las paredes graffiteadas cuentan historias rebeldes,
+            y el asfalto, marcado por la danza de los transeúntes, lleva consigo
+            el pulso frenético de la metrópolis.
+          </p>
+          <p>
+            Es un viaje visual que busca capturar la pulsante estética de lo
+            citadino, donde cada detalle se convierte en un testimonio de la
+            complejidad y la belleza caótica de la urbe moderna.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--=================fin de acerca de ===============-->
+
+    <!--=================inicio galeria ===============-->
+    <section id="galeria">
+      <div class="container galeria_container swiper mySwiper">
+        <div class="galeria_head">
+          <h2 class="galeria_title">Mi Galeria</h2>
+          <div class="empty galeria_empty"></div>
+        </div>
+        <p>
+          Mi galería es un escaparate visual que revela mi mirada única y
+          personal sobre el mundo. Cada fotografía encapsula momentos
+          significativos, emociones palpables y la belleza intrínseca que
+          encuentro en mi entorno.
+        </p>
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <img src="imagenes/galeria1.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria2.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria3.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria4.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria5.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria6.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria7.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria8.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria9.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria10.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="imagenes/galeria11.jpg" />
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--=================fin galeria ===============-->
+
+    <!--=================inicio exposicion ===============-->
+    <section id="exposicion">
+      <div class="container exposicion_container">
+        <h2 class="exposicion_title">Exposicion</h2>
+        <div class="empty exposicion_empty"></div>
+        <div class="exposicion_head">
+          <p>
+            Mi exposición fotográfica es una ventana a mi perspectiva única y a
+            los momentos que encuentro significativos.
+          </p>
+          <a
+            href="mailto:unapersonaconfe@gmail.com"
+            class="contact_btn exposicion _btn"
+            ><i class="uil uil-arrow-up-right"></i>
+            <p>contacto - enviame un e-mail</p></a
+          >
+        </div>
+        <div class="exposicion_galeria">
+          <article><img src="imagenes/ex1.jpg" /></article>
+          <article><img src="imagenes/ex2.jpg" /></article>
+          <article><img src="imagenes/ex3.jpg" /></article>
+          <article><img src="imagenes/ex4.jpg" /></article>
+          <article><img src="imagenes/ex5.jpg" /></article>
+          <article><img src="imagenes/ex6.jpg" /></article>
+          <article><img src="imagenes/ex7.jpg" /></article>
+        </div>
+      </div>
+    </section>
+
+    <!--=================fin exposicion ===============-->
+    <footer>
+      <div class="container footer_container">
+        <div class="footer_head">
+          <h2 class="footer_title">unapersonaconfe@gmail.com</h2>
+          <a href="mailto:unapersonaconfe@gmail.com" class="footer_btn"
+            ><i class="uil uil-arrow-up-right"></i
+          ></a>
+        </div>
+        <ul class="footer_links">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#acerca de">Acerca de</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#exposicion">Exposicion</a></li>
+        </ul>
+      </div>
+    </footer>
+    <br />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
